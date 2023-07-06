@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body style="background-color: rgb(233, 221, 221);">
+    <center> 
+    <div id="field">
+    <fieldset style="margin-top: 100px; background-color: white; border-radius: 20px; border-color: white;" > 
+<div id="part2">
+    <input type="email" name="username1" id="email" placeholder="Email or phone"><br><br>
+    <input type="password" name="username1" id="pass" placeholder="password">
+    </div><br>
+    <div id="part3">
+        <button>Log In</button>
+    </div><br>
+    <div id="part4">
+        <a href="#">Forgot password?</a>
+    </div><br>
+    <div id="part5">
+        <hr>
+    </div><br>
+    <div id="part6">
+        <button>Create new account</button>
+    </div>
+</fieldset>
+</div>
+</center>
+</body>
+<style>
+    #field fieldset{
+        text-align: center;
+        width: 300px;
+    }
+   #part2 input{
+   width: 374px;
+   height: 30px;
+    border-radius: 6px;
+    border-color: grey;
+   }
+   #part3 button{
+    width: 386px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+   }
+   #part4 a{
+    text-decoration: none;
+    font-family: sans-serif;
+   }
+   #part5 hr{
+    width: 380px;
+   }
+   #part6 button{
+    height: 40px;
+    border-radius: 6px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+   }
+   ::-webkit-input-placeholder{
+    text-align: center;
+   }
+</style>
+</html>
